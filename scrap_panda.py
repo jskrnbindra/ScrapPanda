@@ -4,11 +4,21 @@ import ssl
 
 
 class ScrapPanda(object):
+    """
+    Scrapper to list products and categories on a page.
+    """
 
     def __init__(self):
         pass
 
     def start(self, url, sample_product_name, sample_category_name):
+        """
+        Main trigger method to start extraction.
+        :param url: (string) URL of the page to scrape
+        :param sample_product_name: (string) any product name on the page
+        :param sample_category_name: (string) any category name on the page
+        :return: (lists) products and categories
+        """
         html = self.gethtmlfromurl(url)
 
         products = self.extract_products(sample_product_name, html)
