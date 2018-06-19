@@ -11,9 +11,8 @@ class ProductTemplate(Template):
 
 class CategoryTemplate(Template):
 
-    name = 'ProductTemplate'
+    name = 'CategoryTemplate'
 
-    def __init__(self, class_name):
+    def __init__(self):
         super().__init__()
-        self.class_name = class_name
 
