@@ -11,7 +11,7 @@ def get_parameters():
     sample_product_name = 'Lenovo Ideapad 110 (80T70015IH) Notebook (Intel Pentium- 4GB RAM- 1TB HDD- 39.62cm (15.6)- DOS) (Black)'
     sample_category_name = 'Loafers'
 
-    if not len(sys.argv) > 2:
+    if len(sys.argv) < 4:
         print('\nNo or insufficient command line arguments passed. Using default.\n')
         print('url:', url)
         print('sample_product_name:', sample_product_name)
