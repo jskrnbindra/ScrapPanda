@@ -2,7 +2,7 @@
 A quick scrapper to enumerate all products and categories on an e-commerce website's page.
 
 ### Prerequisites
-Python3.6 or above
+Python3.6.5 or above
 
 ## Installation
 1. Clone this repo
