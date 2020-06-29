@@ -18,9 +18,9 @@ python main.py <URL> <sample_product_name> <sample_category_name>
 ```
 
 #### Where
-1. ```bash <URL>``` is URL of the ecommerce website
-2. ```bash <sample_product_name>``` is any product's name from the ```bash <URL>``` above.
-3. ```bash <sample_category_name>``` is any category's name from the ```bash <URL>``` above.
+1. ```<URL>``` is URL of the ecommerce website
+2. ```<sample_product_name>``` is any product's name from the ```<URL>``` above.
+3. ```<sample_category_name>``` is any category's name from the ```<URL>``` above.
 
 ### Example
 ```bash
